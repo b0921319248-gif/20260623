@@ -113,5 +113,3 @@ def search_songs(q: str = Query(...)):
 def read_root():
     with open("index.html", "r", encoding="utf-8") as f:
         return f.read()
-main.py
-目前顯示的是「main.py」。
